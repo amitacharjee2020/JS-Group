@@ -1,0 +1,759 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  
+
+<link rel="stylesheet" href="css/style.css" />
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#box1").fadeIn();
+    $("#box2").fadeIn("slow");
+    $("#box3").fadeIn(3000);
+  });
+});
+</script>
+
+ <style>
+
+<!----Carousal----->
+
+
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -12px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 50%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+
+
+ <!---Navbar---->
+  <style>
+body,h1,h2,h3,h4,h5,h6 {font-family: calibri}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+  background-color:teal;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/mac.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 8px 4px;
+}
+
+
+p {
+  text-align: center;
+  color: black;
+}
+
+
+</style>
+  
+ <!-------Search------->
+
+
+<!---Carousal---->
+<style>
+body {
+  font-family: Arial;
+  padding:8px 6px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 100%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<style>
+div {
+ 
+  border: 1px solid #4CAF50;
+  margin:1px;
+  padding: 10px;
+  background: white;
+}
+
+</style>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
+<script>
+    
+
+$(document).ready(function(){
+
+$("button").click(function(){
+
+$("p").hide(){
+};
+});  
+    
+</script>
+
+
+
+
+
+
+</head>
+<body>
+
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let text = "Press a button!\nEither OK or Cancel.";
+  if (confirm(text) == true) {
+    text = "You pressed OK!";
+  } else {
+    text = "You canceled!";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-container w3-grayscale-min" id="home">
+ 
+
+
+<style> 
+/* Style the Sticky icons on web page */ 
+.stickyicon-list { 
+position: fixed;
+
+top: 300px; 
+transform: translateY(-50%);           
+}       
+.stickyicon-list a { 
+display: block; 
+text-align: center; 
+padding: 2px; 
+transition: all 0.5s ease; 
+color: white; 
+font-size: 20px; 
+}       
+/* HOver affect on sticky social media icons */ 
+.stickyicon-list a:hover { 
+color: #000; 
+width:2px; 
+} 
+ 
+/* Now we have to design each icon of social media */       
+.facebook { 
+background: #3b5998; 
+color: white;
+}       
+.twitter { 
+color: white; 
+background: #00acee; 
+} 
+.linkedin { 
+background: #0e76a8; 
+color: white; 
+}       
+.google { 
+color: white; 
+background: #db4a39; 
+} 
+.instagram { 
+background: #3f729b; 
+color: white; 
+}       
+.youtube { 
+color: white; 
+background: #c4302b;  
+} 
+</style> 
+
+<div class="stickyicon-list">
+<a href="https://www.facebook.com/amitacharjeesoftwaredeveloper" class="facebook"> 
+<i class="fa fa-facebook"></i> 
+</a> 
+<a href="#twitter" class="twitter"> 
+<i class="fa fa-twitter"></i> 
+</a>     
+<a href="#linkedin" class="linkedin"> 
+<i class="fa fa-linkedin"></i> 
+</a> 
+<a href="#google" class="google"> 
+<i class="fa fa-google"></i> 
+</a>   
+<a href="#instagram" class="instagram"> 
+<i class="fa fa-instagram"></i> 
+</a>                            
+<a href="https://www.youtube.com/@amitkumaracharjee572" class="youtube"> 
+<i class="fa fa-youtube"></i> 
+</a> 
+</div>
+
+
+ <div class="mt-2 p-5 " style="font-family:calibri">
+<div class="jumbotron"style=" padding: 80px; border:2px solid blue; outline:1px; margin:1px solid blue; font-family:calibri; color:blue; font-size: 18px">
+ 
+
+<ul class="nav nav-tabs" >
+<li class="active"><a data-toggle="tab"href="#menu1"  >About Us</a></li>
+
+<li><a data-toggle="tab" href="#menu2"   >Our Software Firm</a></li>
+
+<li><a data-toggle="tab" href="#menu3"   >Subjects we offer</a></li>
+<li><a data-toggle="tab" href="#menu4"   >Contact</a></li>
+</ul>
+  
+  <div class="tab-content" >
+   
+  <div id="menu1" class="tab-pane fade in active" style="background-color:black;color:white; font-family:calibri;font-size:12px" >
+ 
+  <p >We live in a competitive world. To gain sustainable competitive edge in the global competitive market we have focused on our core competences based on cloud based value delivery & value proposition. Technology is the building block to business success. Fintech, IT governance & security, people skill, business analytics & data science are the key to sustainable development.</p>
+    
+ 
+  </div>
+  
+ 
+  <div id="menu2" class="tab-pane fade" style="background-color:black;color:white; font-family:calibri; font-size:14px">
+ 
+  
+<a class="active" href="jsst.html">Get started</a>
+  
+  </div>
+
+  <div id="menu3" class="tab-pane fade" style="background-color:black; color:white; font-family:calibri">
+ 
+ <h3>SSC English 1st Paper</h3>
+ <a class="active" href="SSCEng1stPaper.html">  Get started</a>
+  <h3>SSC English 2nd Paper</h3>
+  <a class="active" href="SSCEng1stPaper.html">  Get started</a>
+  
+ 
+  <h3>HSC English 1st Paper</h3>
+  <a class="active" href="HSCEng1stPaper.html">  Get started</a>
+  <h3>HSC English 2nd Paper</h3>
+ <a class="active" href="HSCEng2ndPaper.html">  Get started</a>
+  </div>
+  
+  
+  
+  
+  <div id="menu4" class="tab-pane fade" style="background-color:black;color:blue; font-family:calibri;font-size:14px">
+  
+  
+ <p>Amit Kumar Acharjee<br> CEO & founder<br>Mob No. 01712878767</p>
+	
+	
+  </div></p>
+  
+  </div>
+
+  </div>
+ 
+</div>
+
+</div>
+
+ </div>
+ 
+
+
+
+<p>We are the best tuition provider</p>
+<button>Click me the hide the paragraph</button>
+
+<div class="w3-large w3-white" class="container" style="padding:20px; border:1px solid blue">
+  
+  
+    <h3> Legend English Academy</h3> 
+    <p style="font-family:calibri; color:black; font-size:16px">Legend English Academy is an ideal institute for learners interested in developing their life skills in peer-to-peer communication. We have a mission to develop both soft & life skills through effective & long term strategy of modern & sophisticated learning through one to one interactive communication. </p> 
+
+
+</div>
+
+
+<div class="w3-large w3-right"  style="padding:10px 1px;">	
+
+<iframe width="560" height="330" src="https://www.youtube.com/embed/Ap5Ar5_Ljts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+
+<style>
+.collapsible {
+  background-color:black;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: black;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color:white;
+}
+
+
+ 
+</style>
+
+ 
+</div>
+
+
+
+<button type="button" class="collapsible" style="font-size:16px; color:white; padding:5px; background-color:white; color:black;"  >Profile of the Founder</button>
+   
+	<div class="w3-large">
+	    <img src="amit.jpg" style="height:30px; width:20px;">
+     
+      <p style="color: black; font-family:calibri; font-size:16px; background-color:white; float:topleft;">Mr. Amit Kumar Acharjee, MBA, LLB , ACCA ( Part-qualified) , CEO & Software Developer has been associated with multi-faceted socio-economic activities & is currently dedicated to  software development to equip our future generation with future skills-set through providing state-of-the art technological service & training. Mr. Acharjee has been relentlessly in his pursuit of ‘do something innovative’ motto & sincerely dedicated to transform your business.   Recently he has completed his training on PHP Zend, Java, etc as well as pursuing BSc in Computer Science ( IUBH-Germany).</p>
+
+    </div>
+
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</header>
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top" style="font-family:calibri; color:black; background-color:white; font-size:40px; padding: 2px; ">
+    
+    <h4 style="font-family:calibri;">Esho Shikhi ( Let's learn) </h4> 
+    
+  <div class="w3-bar w3-white w3-large" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide"><img src="legendlogo.png"  style="height:40px; width:60px;"></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-center w3-hide-small">
+	
+	 <a href="#home" class="w3-bar-item w3-button">Home</a>
+   
+	
+      <span style="background-color:white; color:color;"><a href="#id01" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>Login</a></span>
+	  
+    </div>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Management</a>
+  <a href="#mgt" onclick="w3_close()" class="w3-bar-item w3-button">Resource persons</a>
+ 
+  
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">Courses</a>
+   
+  <a href="#id01" onclick="w3_close()" class="w3-bar-item w3-button">Login</a>
+
+</nav>
+
+</div>
+
+
+
+
+<div class="w3-medium w3-bottom "  style="padding:20px 1px;">
+    
+
+	
+  <div class="dropdown">
+    <button type="button" class="btn btn dropdown-toggle" data-bs-toggle="dropdown">
+      <h4 style="background-color:white; color:blue;">Know more about us</h4>
+     
+    </button>
+    <ul class="dropdown-menu">
+
+      <li><a class="dropdown-item" href="#about">Who we are</a></li>
+      <li><a class="dropdown-item" href="#faq">FAQ</a></li>
+      <li><a class="dropdown-item" href="#photo">Photo Gallery</a></li>
+	        
+			      <li><a class="dropdown-item" href="#webinar">Webinar</a></a></li>
+				       <li><a class="dropdown-item" href="#counciling">Counciling</a></li> 
+					         <li><a class="dropdown-item" href="#magazine">E-magazine</a></li>
+							       <li><a class="dropdown-item" href="#elibrary">E-library</a></li>
+	  
+    </ul>
+ 
+  
+</div>
+
+</div>
+
+
+
+
+<a href="#">1. Download HSC paragraph suggestion for the Board Exam-2023</a>
+
+</div>
+
+<!------Resource persons--->
+
+<div class="container">
+<div class="w3-container   w3-display-bottom" style="background-color:white; text-align:center;" id="mgt" >
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <style>
+     
+.w3-container{
+
+background-color:white ;
+font-size: 18px;
+border: 2px solid black:
+hieght: 300px;
+color:black;
+
+}
+.post { background-color:black;
+font-size: 18px;
+border: 2px solid black:
+hieght: 250px;
+color:black;
+
+}
+.size{ font-style:calibri;
+font-size:18px'
+float:right;
+text-align:left;
+color:black; }
+    </style>
+  
+</head>
+
+<div  class="w3-large  w3-black>
+<div class="w3-large">
+   <h4 style="font-family:calibri;"> Resource persons</h4>
+   </div>
+
+<div class="container">
+<div class="post size paragraph">
+
+ <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#demo">Amit Kumar Acharjee <br> MA, MBA, LLB</button>
+  <div id="demo" class="collapse">
+  
+ <img src="mumtahenapic/mumta.jpg" style="width:20%">
+    <p>Former English Teacher <br> Currently working as a software developer & English Trainer</p>
+  </div>
+ 
+  
+</div>
+
+
+<div class="post size">
+  <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#demo1">Joyeeta Acharjee</button>
+  <div id="demo1" class="collapse">
+  
+      <img src="mumtahenapic/mumta1.jpg" style="width:20%">
+    <p>Student</p>
+  </div>
+  </div>
+
+
+</div>
+
+
+
+
+<div class="w3-large  w3-white " style="padding:100px"  id="faq">
+
+<style>
+.accordion {
+  background-color:black;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  font-family:calibri;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color:black; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color:white;
+  color:black;
+  overflow: hidden;
+  font-size:16px;
+  font-family:calibri;
+}
+</style>
+
+
+<h4>Frequently Asked Questions</h4>
+
+<button class="accordion">1.What subject would you like to be enrolled?</button>
+<div class="panel">
+  <p>SSC/HSC English </p>
+</div>
+
+<button class="accordion">2.What is the course fee?</button>
+<div class="panel">
+  <p>Please check our course section</p>
+</div>
+
+<button class="accordion">3.Do you offer both off-line & online-courses?</button>
+<div class="panel">
+  <p>Yes,we offer both off-line & online-courses </p>
+</div>
+<button class="accordion">4.Do you  offer three modes of teaching?</button>
+<div class="panel">
+  <p>Yes</p>
+</div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+<div class="w3-box  w3-white " style="padding:2px 1px;border:1px;margin:2px;"  id="id01">
+
+<div class="bg-img" style="font-size:16px" >
+  <form action="/action_page.php" class="container">
+    <h1>Login</h1> <br>
+    
+    <div class="row">
+    
+    <div class="col-md-2">
+<label for="name">Name</label>
+<input type="text" placeholder="Enter your fullname"     name="Fullname" align="LEFT" required="yes" size="15" value="" ><br>
+    </div>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" align-"LEFT" required="yes" size="10" value=""> <br>
+
+    Password<br>
+    <input type="password" name="psw" align="LEFT" required="yes" value="">
+
+    <button type="submit" class="btn">Login</button>
+  </form>
+</div>
+</div>
+</div>
+
+
+<button class="accordion">Legend English Academy</button>
+<div class="panel">
+<p>English</p>
+</div>
+
+<!----The End----->
+
+<div class="w3-large" style="font-size:16px; color:black; font-family:calibri; background-color:white;"> 
+
+<h3><span>Address</span><h3>
+  <p style="font-size:16px" ><span>JS Software & Technology </span><br><span>Rahman Chamber (9 th Floor), 12-13 Motijheel
+C/A, Dhaka-1000</span> </p>
+ 
+
+
+
+<a href="#" data-toggle="popover" title="Popover header" data-content="Some content inside the popover"><span>Topup</span></a> <br>
+	
+
+	
+</div>
+
+
+</body>
+</html>
+
+
+<!---The End----->
