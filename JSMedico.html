@@ -1,0 +1,1671 @@
+  <!DOCTYPE html>
+<html lang="en">
+<!---meta---->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width:device-width, initial-scale=1">
+
+<style>
+*{
+margin:4px;
+}
+.header{
+padding:40px;
+color:blue;
+
+
+	}
+
+.img{
+
+right:0px;
+top:0px;
+margin:0px;
+}
+
+.heading{
+position:fixed;
+left:0px;
+top:0px;
+font-size:20px;
+font-style:cursive;
+
+}
+
+.email{
+ position:fixed;
+right:0px;
+top:0px;
+font-size:20px;
+font-style:cursive;
+   
+}
+
+.navbar{
+overflow:visible;
+background-color:darkblue;
+width:100%;
+margin:0px;
+
+	
+}
+
+.navbar a{
+
+}
+
+ul{
+display:flex;
+list-style-type: none;
+color:white;
+
+}
+
+li{
+margin:18px 28px;
+
+	
+}
+.dropdown-content{
+display:none;
+}
+
+li:hover .dropdown-content{
+display:block;
+background-color:red;
+color:white;
+position:absolute;
+	
+}
+.dropdown-content a{
+margin:10px 18px;
+padding:12px;	
+}
+
+.w3-container{
+padding:100px;
+}
+
+</style>
+
+
+</head>
+
+<body>
+<header class="header-area header-sticky">
+<div class="container">
+<div class="row">
+<div class="col-12">
+<div class="header">
+	
+
+<div class="img">
+
+		
+</div>
+
+<div class="heading">
+	<h3>JS Software & Technology</h3>
+	
+</div>
+
+<div class="email">
+   <p><a href="mailto:bstbd2020@gmail.com">Send email</a></p>   
+</div>
+<div class="navbar">
+	
+<ul class="nav">
+<li class="scroll-to-section"><a href="index.php" class="active">Home</a></li>
+
+<li class="submenu">Products
+
+<div class="dropdown-content">
+	<h4 style="float:center">Software</h4>
+<a href="#">Tally</a>
+<a href="#">Odoo</a>
+
+<h4><a href="#" style="color:white;">Scientific Goods</a></h4>
+
+<h4><a href="#" style="color:white">Medical Goods</a></h4>
+
+	<h4 style="float:center">Project</h4>
+<a href="#">Waste Management</a>
+
+<li class="submenu">Brands
+  <div class="dropdown-content">
+      <h4>Brnads We represent in Bangladesh</h4>
+  <a href="#">ForTech, Itali</a>
+  <a href="#">SternMed, Germany</a>
+  <a href="#">Wiggens, Germany</a>
+    
+  </div>
+</li>
+ <li class="scroll-to-section"><a href="#RequestQuote" style="color:white">Request a Quote</a></li>
+<li class="scroll-to-section"><a href="#contact" style="color:white">Contact</a></li>
+
+
+
+</ul>
+
+</div>
+
+</div>	
+</div>
+</div>
+<!---Main Menu---->
+
+  
+
+    <!-- ***** About Area Starts ***** -->
+ 
+ 
+ 
+ 
+  
+
+ <!----Product Portfolio------>
+ <style>
+     
+.accordion{
+ color:red;
+ background-color:darkgray;
+ outline:none;
+ border:none;
+ pointer:cursor;
+ transition: max-height 0.2s ease-out;
+ text-align:left;
+ width:100%;
+ 
+ }
+      
+ active. accordion:hover{
+    background-color:blue;
+ }    
+   
+ .panel{
+     
+ background-color:DodgerBlue;
+
+ padding:0 18px;
+ overflow:hidden;
+ display:none;
+ }  
+     
+ </style>
+ 
+<div class="container bg-secondary">
+
+<h1>Scientific Products we resell</h1>
+
+
+<h3>Wiggens, Germany</h3>    
+  
+<button class="accordion"> <h2>Vacuum Pump/Pressure Pump</h2> </button>
+<div class="panel">
+  
+ <img src="WiggensImages/VacuumPump.jpg" style="width:250px;">
+ <img src="WiggensImages/VacuumPump1.jpg" style="width:250px;"> 
+ <img src="WiggensImages/VacuumPump2.jpg" style="width:250px;"> 
+ <img src="WiggensImages/VacuumPump3.jpg" style="width:250px;">
+ <img src="WiggensImages/VacuumPump4.jpg" style="width:250px;"> 
+ <img src="WiggensImages/DiaphramVacuumPump.jpg" style="width:250px;"> 
+</div>
+ 
+<button class="accordion"><h2>Filtration System</h2></button>
+<div class="panel">
+
+  <img src="WiggensImages/Wiggens2.jpg" style="width:250px;">
+  <img src="WiggensImages/Wiggens2.jpg" style="width:250px;">   
+    
+</div>   
+
+ 
+</div> 
+ 
+
+
+<script>
+    
+  var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+} 
+ 
+ 
+   
+    
+</script>
+ 
+ 
+ <!-------Product Porfolio Ends---->
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+<!-- section -->
+<div class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-14">
+        <div class="full">
+          <div class="contact_us_section">
+            <div class="call_icon"> <img src="images/it_service/phone_icon.png" alt="#" /> </div>
+            <div class="inner_cont">
+              <h2>REQUEST A FREE QUOTE</h2>
+              <p>Get answers and advice from people you want it from.</p>
+            </div>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end section -->
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 	       
+	  
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  padding: 30px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 14px 18px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+
+
+<h3 style="align:center">Goods available in stock</h3>
+
+
+<div id="btnContainer">
+  <button class="btn" onclick="listView()"><i class="fa fa-bars"></i> List</button> 
+  <button class="btn active" onclick="gridView()"><i class="fa fa-th-large"></i> Grid</button>
+</div>
+<br>
+   
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+          
+   
+<img id="myImg" src="WiggensImages/VacuumPump.jpg" alt="#" style="width:80%;max-width:300px">
+ <br> 
+ 
+ 
+    <form>
+       
+    <input style="color:blue" placeholder="Oil-free Priston Pump" style="color:blue"><br>
+    <input placeholder="Price:BDT 50,000">
+  
+     <a href="#productinfo" >Quote</a>
+ 
+    </form>
+    
+ </div>
+ 
+  <div class="column" style="background-color:#bbb;">
+      
+<img id="myImg1" src="WiggensImages/Wiggens1.jpg" alt="#" style="width:100%;max-width:300px"><br> 
+
+
+    <form>
+       
+    <input style="color:blue" placeholder="Oil-free Priston Pump" style="color:blue"><br>
+    <input placeholder="Price:BDT 50,000">
+  
+     <a href="#productinfo" > Quote</a>
+ 
+    </form>
+      
+
+  </div>
+  
+  <div class="column" style="background-color:#bbb;">
+      
+<img id="myImg2" src="WiggensImages/Wiggens2.jpg" alt="#" style="width:100%;max-width:300px"><br> 
+
+
+    <form>
+       
+    <input style="color:blue" placeholder="Oil-free Priston Pump" style="color:blue"><br>
+    <input placeholder="Price:BDT 50,000">
+  
+     <a href="#productinfo" >Quote</a>
+ 
+    </form>
+      
+
+  </div>
+  
+     
+  <div class="column" style="background-color:#bbb;">
+      
+<img id="myImg3" src="WiggensImages/Wiggens3.jpg" alt="#" style="width:100%;max-width:300px"><br> 
+
+
+<form>
+       
+    <input style="color:blue" placeholder="Oil-free Priston Pump" style="color:blue"><br>
+    <input placeholder="Price:BDT 50,000">
+  
+     <a href="#productinfo" > Quote</a>
+ 
+</form>
+      
+
+  </div>
+  
+          
+  <div class="column" style="background-color:#bbb;">
+      
+<img id="myImg4" src="WiggensImages/Wiggens4.jpg" alt="#" style="width:100%;max-width:300px"><br> 
+
+
+<form>
+       
+<input style="color:blue" placeholder="Oil-free Priston Pump" style="color:blue"><br>
+<input placeholder="Price:BDT 50,000">
+  
+     <a href="#productinfo" > Quote</a>
+ 
+ </form>
+      
+
+  </div>
+  
+   
+  <div class="column" style="background-color:#bbb;">
+      
+<img id="myImg5" src="WiggensImages/Wiggens5.jpg" alt="#" style="width:100%;max-width:300px"><br> 
+
+
+    <form>
+       
+    <input style="color:blue" placeholder="Oil-free Priston Pump" style="color:blue"><br>
+    <input placeholder="Price:BDT 50,000">
+  
+     <a href="#productinfo" > Quote</a>
+ 
+    </form>
+      
+
+  </div>
+  
+ 
+
+</div>
+ 
+
+  
+
+
+<script>
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a loop variable
+var i;
+
+// List View
+function listView() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.width = "100%";
+  }
+}
+
+// Grid View
+function gridView() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.width = "30%";
+  }
+}
+
+/* Optional: Add active class to the current button (highlight it) */
+var container = document.getElementById("btnContainer");
+var btns = container.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+
+
+    
+<!------Modal Image(myImg1/myImg2)  Starts------>
+
+    
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+
+#myImg:hover {opacity: 0.7;}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+</style>
+
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+
+var img = document.getElementById("myImg");
+
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+
+<!------myImg Ends----->
+
+
+ <!----Modal myImg1 Starts---->  
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+#myImg1 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+
+#myImg1:hover {opacity: 0.7;}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+</style>
+
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+
+var img = document.getElementById("myImg1");
+
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+
+<!----myImg1 Ends---->
+
+<!-----myImg2 Starts----->
+
+   
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+#myImg2 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+
+#myImg2:hover {opacity: 0.7;}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+</style>
+
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+
+var img = document.getElementById("myImg2");
+
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+<!-----myImg2 Ends------->
+
+<!------myImg3 Starts------>
+
+   
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+#myImg3 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+
+#myImg3:hover {opacity: 0.7;}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+</style>
+
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+
+var img = document.getElementById("myImg3");
+
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+
+<!-----myImg4 Starts------->
+
+   
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+#myImg4 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+
+#myImg4:hover {opacity: 0.7;}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+</style>
+
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+
+var img = document.getElementById("myImg4");
+
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+<!------myImg4 Ends------->
+
+
+<!-----myImg5 Starts------>
+   
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+
+#myImg5 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+
+#myImg5:hover {opacity: 0.7;}
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+</style>
+
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+
+var img = document.getElementById("myImg5");
+
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+
+
+<!-----myImg5 Ends----->
+
+
+
+
+
+  
+    <!-- ***** Contact Form Starts ***** -->
+    <section class="section" id="contact">
+        <div class="container-fluid bg-primary" style="margin:1px; border:1px; padding:80px;">
+            <div class="row">
+                <div class="col-lg-6 align-self-center">
+                    <div class="left-text-content">
+                        <div class="section-heading">
+                            <h6>Contact Us</h6>
+                            <h3>Amit Kumar Acharjee, <br> CEO <br> JS Software &Technology  </h3>
+                        </div>
+                        <p>We are the trusted supplier of Software, Medical & Scientific Goods</p>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="phone">
+                                    <i class="fa fa-phone"></i>
+                                    <h4>Phone Numbers</h4>
+                                    <span><a href="#">+8801712878767</a><br><a href="#">Web:www.jssoftntech.com</a></span>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="message">
+                                    <i class="fa fa-envelope"></i>
+                                    <h4>Emails</h4>
+                                    <span><a href="#">bstbd2020@gmail.com</a><br><a href="#">amitcima2019@gmail.com</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               </div>
+               </div>
+
+
+
+ 
+   
+ <!-----Request A Quote Starts-------> 
+ 
+ 
+ 
+ 
+
+<style>
+.mySlides {display:none;}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: calibri;
+  
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 2px;
+  color: white;
+  background-color:DodgerBlue;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+</style>
+<div class="container" style=" margin:1px; border:1px; padding:5px;">
+<div class="card" id="productinfo">
+
+         
+  <img class="mySlides" src="WiggensImages/VacuumPump.jpg" style="width:100%">
+
+  <img class="mySlides" src="WiggensImages/VacuumPump1.jpg" style="width:100%">
+  <img class="mySlides" src="WiggensImages/VacuumPump2.jpg" style="width:100%">
+  <img class="mySlides" src="WiggensImages/VacuumPump3.jpg" style="width:100%">
+     
+  <img class="mySlides" src="WiggensImages/VacuumPump.jpg" style="width:60%">
+  <img class="mySlides" src="WiggensImages/VacuumPump1.jpg" style="width:100%">
+  <img class="mySlides" src="WiggensImages/VacuumPump2.jpg" style="width:100%">
+  <img class="mySlides" src="WiggensImages/VacuumPump3.jpg" style="width:100%">
+     
+  <img class="mySlides" src="WiggensImages/VacuumPump.jpg" style="width:60%">
+  <img class="mySlides" src="WiggensImages/VacuumPump1.jpg" style="width:100%">
+  <img class="mySlides" src="WiggensImages/VacuumPump2.jpg" style="width:100%">
+  <img class="mySlides" src="WiggensImages/VacuumPump3.jpg" style="width:100%">
+     
+  <img class="mySlides" src="WiggensImages/VacuumPump0.jpg" style="width:60%">
+  <img class="mySlides" src="WiggensImages/VacuumPump4.jpg" style="width:100%">
+  <img class="mySlides" src="WiggensImages/Wiggens3.jpg" style="width:100%">
+  <img class="mySlides" src="WiggensImages/Wiggens4.jpg" style="width:100%">
+     
+  <img class="mySlides" src="WiggensImages/Wiggens11.jpg" style="width:60%">
+  <img class="mySlides" src="WiggensImages/Wiggens12.jpg" style="width:100%">
+  <img class="mySlides" src="WiggensImages/Wiggens13.jpg" style="width:100%">
+  <img class="mySlides" src="WiggensImages/Wiggens14.jpg" style="width:100%">
+     
+  <img class="mySlides" src="WiggensImages/Wiggens11.jpg" style="width:60%">
+  <img class="mySlides" src="WiggensImages/Wiggens12.jpg" style="width:100%">
+  <img class="mySlides" src="WiggensImages/Wiggens13.jpg" style="width:100%">
+  <img class="mySlides" src="WiggensImages/Wiggens14.jpg" style="width:100%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+  
+  
+   <h4>Product Information</h4>
+   <fieldset>
+    
+        <label for="fname" style="padding:10px; margin:0px 2px">Product name</label>
+       <input type="text" id="fname" name="productname" placeholder="Enter product name" value="">
+       
+   </fieldset>
+     
+     <fieldset>
+         
+       
+        <label for="fname" style="padding:10px; margin:0px 2px">Quantity</label>
+       
+      <input type="text" id="fname" name="quantity" placeholder="Quantity" value="">
+      
+        
+     </fieldset> 
+     
+     <fieldset>
+      
+       <label for="fname" > Full Name</label>
+       
+            <input type="text" id="fname" name="firstname" placeholder="Enter your name" value="">
+          
+         
+     </fieldset>
+     <fieldset>
+         <label for="mobile">Mobile</label>
+         <input type="text" name="mobile" placeholder="Mobile No" value="">
+     </fieldset>
+     
+     <fieldset>
+       
+            <label for="email" style="padding:10px;"> Email</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email" value="">
+             
+         
+     </fieldset>
+           
+    <fieldset>
+    
+        <label for="submit"></label>
+      <button type="submit">Submit</button>    
+        
+    
+         
+  	
+ 
+</div>
+
+
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  <!-----Request A Quote Ends------->   
+    
+  
+
+ 
+ <style>
+ .footer{
+ padding:100px;
+ background-color:darkblue;
+ color:white;
+ margin:0px;
+ border:1px;
+ }    
+     
+ </style>
+ 
+    
+ <div class="footer" >
+     
+  <h1 style="color:white">JS Softwarer & Technology</h1>
+  <p style="color:white;">Hatkhola, Tikatuli, Wari, Dhaka-1203</p>
+     
+ </div>   
+  
+ 
+
+<!-- js section -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- menu js -->
+<script src="js/menumaker.js"></script>
+<!-- wow animation -->
+<script src="js/wow.js"></script>
+<!-- custom js -->
+<script src="js/custom.js"></script>
+<!-- revolution js files -->
+<script src="revolution/js/jquery.themepunch.tools.min.js"></script>
+<script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="revolution/js/extensions/revolution.extension.video.min.js"></script>
+<!-- map js -->
+<script>
+         // This example adds a marker to indicate the position of Bondi Beach in Sydney,
+         // Australia.
+         function initMap() {
+           var map = new google.maps.Map(document.getElementById('map'), {
+             zoom: 11,
+             center: {lat: 40.645037, lng: -73.880224},
+         styles: [
+                  {
+                    elementType: 'geometry',
+                    stylers: [{color: '#fefefe'}]
+                  },
+                  {
+                    elementType: 'labels.icon',
+                    stylers: [{visibility: 'off'}]
+                  },
+                  {
+                    elementType: 'labels.text.fill',
+                    stylers: [{color: '#616161'}]
+                  },
+                  {
+                    elementType: 'labels.text.stroke',
+                    stylers: [{color: '#f5f5f5'}]
+                  },
+                  {
+                    featureType: 'administrative.land_parcel',
+                    elementType: 'labels.text.fill',
+                    stylers: [{color: '#bdbdbd'}]
+                  },
+                  {
+                    featureType: 'poi',
+                    elementType: 'geometry',
+                    stylers: [{color: '#eeeeee'}]
+                  },
+                  {
+                    featureType: 'poi',
+                    elementType: 'labels.text.fill',
+                    stylers: [{color: '#757575'}]
+                  },
+                  {
+                    featureType: 'poi.park',
+                    elementType: 'geometry',
+                    stylers: [{color: '#e5e5e5'}]
+                  },
+                  {
+                    featureType: 'poi.park',
+                    elementType: 'labels.text.fill',
+                    stylers: [{color: '#9e9e9e'}]
+                  },
+                  {
+                    featureType: 'road',
+                    elementType: 'geometry',
+                    stylers: [{color: '#eee'}]
+                  },
+                  {
+                    featureType: 'road.arterial',
+                    elementType: 'labels.text.fill',
+                    stylers: [{color: '#3d3523'}]
+                  },
+                  {
+                    featureType: 'road.highway',
+                    elementType: 'geometry',
+                    stylers: [{color: '#eee'}]
+                  },
+                  {
+                    featureType: 'road.highway',
+                    elementType: 'labels.text.fill',
+                    stylers: [{color: '#616161'}]
+                  },
+                  {
+                    featureType: 'road.local',
+                    elementType: 'labels.text.fill',
+                    stylers: [{color: '#9e9e9e'}]
+                  },
+                  {
+                    featureType: 'transit.line',
+                    elementType: 'geometry',
+                    stylers: [{color: '#e5e5e5'}]
+                  },
+                  {
+                    featureType: 'transit.station',
+                    elementType: 'geometry',
+                    stylers: [{color: '#000'}]
+                  },
+                  {
+                    featureType: 'water',
+                    elementType: 'geometry',
+                    stylers: [{color: '#c8d7d4'}]
+                  },
+                  {
+                    featureType: 'water',
+                    elementType: 'labels.text.fill',
+                    stylers: [{color: '#b1a481'}]
+                  }
+                ]
+         });
+         
+           var image = 'images/it_service/location_icon_map_cont.png';
+           var beachMarker = new google.maps.Marker({
+             position: {lat: 40.645037, lng: -73.880224},
+             map: map,
+             icon: image
+           });
+         }
+      </script>
+      
+      
+      
+<!-- google map js -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+<!-- end google map js -->
+
+
+
+
+
+</body>
+</html>
